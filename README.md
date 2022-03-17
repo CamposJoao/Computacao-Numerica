@@ -12,6 +12,12 @@ Uma função ```gauss_elimination(...)``` em Python 3.X que implementa a **decom
 ### Gauss-Seidel
 ### Jacobi
 
+## Ajuste de Curvas
+### Regressão Linear
+### Regressão Polinomial
+Uma função ```polynomial_regression(...)``` em Python 3.X que implementa a **regressão polinomial** e que recebe como parâmetros dois vetores de dados ```x``` e ```y``` de mesma dimensão e a ordem ```n``` do polinômio a ser gerado e que retorna um vetor ```a``` com os ```n+1``` coeficientes do polinômio regressor.
+## Interpolação
+
 ## Integração Numérica
 Uma função ```integrate(...)``` em Python 3.X que implementa os métodos de integração do **retângulo** (```'rect'```), do **trapézio** (```'trapz'```), de **Simpson 1/3** (```'simp3'```) e de **Simpson 3/8** (```'simp8'```) e que recebe como parâmetros uma função ```f```, o intervalo de integração ```[a, b]```, o número de subintervalos, e a string identificando o método de integração a ser aplicado. No caso de um número de subintervalos inválido, o programa escolhe o próximo número de subintervalos válido maior que aquele fornecido. 
 
